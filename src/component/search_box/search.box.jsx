@@ -13,7 +13,7 @@ const SearchBox = ({classname,placesholder,onchangehandler})=>(
 )
 // class SearchBox extends Component{
 
-//     render( )
+//     render()
 //     {
 //         return(
 //             <input 

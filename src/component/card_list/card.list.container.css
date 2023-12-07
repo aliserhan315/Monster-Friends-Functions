@@ -1,26 +1,31 @@
 .card-list{
-    width: 75vw;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-gap: 20px;
-    
-    
-    }
+  width: 80vw;
+  
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 70px;
+  grid-row-gap: 60px;
+  
+  
+  }
   .cardcontainer{
-        display: flex;
-        flex-direction: column;
-        background-color: #95dada;
-        border: 1px solid grey;
-        border-radius: 15px;
-        padding: 50px;
-        cursor: pointer;
-        -moz-osx-font-smoothing: grayscale;
-        backface-visibility: hidden;
-        transform: translateZ(0);
-        transition: transform 0.4s ease-out;
-      }
-    
-.cardcontainer:hover{
-        transform: scale(1.1);
-      }
+     width: 220px;
+     height: 350px;
+      display: flex;
+      flex-direction: column;
+      background-color: #95dada;
+      border: 1px solid grey;
+      border-radius: 15px;
+      padding: 30px;
+      cursor: pointer;
+      -moz-osx-font-smoothing: grayscale;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+      transition: transform 0.4s ease-out;
+    }
+  
+    .cardcontainer:hover{
+      transform: scale(1.1);
+    }
+  
